@@ -1,0 +1,58 @@
+.container {
+  margin: 0 auto;
+  width: 768px;
+}
+
+.top-nav {
+  position: fixed;
+  width: 100%;
+  float: top;
+  background-color: black;
+  margin-top: -100px;
+  height: 50px;
+  transition: opacity 1s ease;
+  opacity: 1;
+}
+
+.top-nav:hover { opacity: 1 }
+
+.scrolled {
+  opacity: 0.7;
+}
+
+img {
+  float: left;
+  margin-top: -2px;
+}
+
+
+
+nav li {
+  float: right;
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  margin: 10px;
+  width: calc(68%/4);
+}
+
+ul {
+  position: 0;
+  margin-top: -10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
